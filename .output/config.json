@@ -1,0 +1,24 @@
+{
+  "version": 3,
+  "framework": {
+    "version": "0.41.4"
+  },
+  "routes": [
+    {
+      "src": "/medical-system-api-zudoku-deploy/api",
+      "dest": "/medical-system-api-zudoku-deploy/api/doctors",
+      "status": 301,
+      "headers": {
+        "Location": "/medical-system-api-zudoku-deploy/api/doctors"
+      }
+    },
+    {
+      "src": "/medical-system-api-zudoku-deploy",
+      "dest": "/medical-system-api-zudoku-deploy/docs/installation",
+      "status": 301,
+      "headers": {
+        "Location": "/medical-system-api-zudoku-deploy/docs/installation"
+      }
+    }
+  ]
+}
